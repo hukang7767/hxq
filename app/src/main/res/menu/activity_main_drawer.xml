@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/nav_sy"-->
+            <!--android:title="首页" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:title="儿童锁" />-->
+        <item
+            android:id="@+id/nav_scan"
+            android:title="切换设备" />
+        <item
+            android:id="@+id/nav_sms"
+            android:title="使用说明" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="售后服务" />
+        <item
+            android:id="@+id/nav_share"
+            android:title="关于我们" />
+    </group>
+
+
+</menu>

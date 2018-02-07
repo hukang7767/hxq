@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="时间设置"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_minus1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/minus" />
+
+        <EditText
+            android:id="@+id/edt_time1"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="15"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btn_plus1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/plus" />
+
+        <TextView
+            android:id="@+id/tv_sf"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:text="分钟"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="注：烘干除湿最高设置99分钟，除臭杀菌最高设置15分钟。"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#cdcdcd"
+            android:textColor="#ffffff"
+            android:text="取消"/>
+        <Button
+            android:id="@+id/btn_done1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="#8897b4"
+            android:textColor="#ffffff"
+            android:text="确定"/>
+    </LinearLayout>
+
+</LinearLayout>
